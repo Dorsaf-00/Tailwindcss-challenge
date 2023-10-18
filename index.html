@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class=" bg-[#F3F1F6]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <!--Nav Bar-->
+<nav class=" relative container mx-auto p-6 ">
+<!--Flex Container-->
+<div class="flex items-center justify-between">
+<!--Logo-->
+<div class="pt-2">
+    <img src="images/logo.svg" alt="">
+</div>
+<!--Menu Items-->
+<div class=" hidden space-x-16 md:flex">
+    <a href="#" class="text-[#01004C] font-bold hover:text-[#525187]">Products</a>
+    <a href="#" class="text-[#01004C] font-bold hover:text-[#525187]">Solutions</a>
+    <a href="#" class="text-[#01004C] font-bold hover:text-[#525187]">Resources</a>
+    <a href="#" class="text-[#01004C] font-bold hover:text-[#525187]">Join Us</a>
+</div>
+<!--Button-->
+<a href="#" class="hidden py-2 px-6 pt-2 rounded-full md:block  hover:bg-[#36C3FE] text-white bg-[#8953FF]" >Sign In</a>
+
+<!--Hamburger Menu-->
+<button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+    <span class="hamburger-top"></span>
+    <span class="hamburger-middle"></span>
+    <span class="hamburger-bottom"></span>
+
+</button>
+</div>
+<!--Mobile Menu-->
+<div class="md:hidden">
+    <div id="menu" class="absolute flex flex-col items-center hidden self-end py-8 mt-10 space-y6 font-bold bg-[#F3F1F6] sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+        <a href="">Products</a>
+        <a href="">Solutions</a>
+        <a href="">Resources</a>
+        <a href="">Join Us</a>
+
+    </div>
+
+</div>
+</nav>
+<!--Hero Section-->
+<section id="hero">
+    <!--Flex Container-->
+    <div class="container flex flex-col md:flex-row items-center px-6 mx-auto space-y-6 md:space-y-0">
+        <div class="md:w-1/2 order-1 md:order-2 md:flex-col md:items-start">
+            <img src="images/image.jpg" alt="">
+        </div>
+        <!--Text Content-->
+        <div class="flex flex-col md:w-1/2 items-center md:items-start order-2 md:order-1">
+            <h1 class="max-w-md text-4xl  font-semibold text-center text-[#0E0E14] pt-4 md:text-5xl md:text-left mb-2">The data-driven CRM for modern teams</h1>
+            <p class="max-w-sm text-center text-2xl pt-2 text-[#3C3C45] md:text-left mb-2">Snap gives you all you need to build the perfect relationship management tool for your teams</p>
+            <div class="flex justify-center pt-8 justify-start">
+                <!--Button-->
+                <a href="#" class="py-2 px-6 pt-2 rounded-full md:ml-2 hover:bg-[#A277FF] text-white bg-[#8953FF]">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Discover How it works-->
+<section id="Discover">
+    <!--Container to heading-->
+    <div class="max-w-6xl px-5 mx-auto mt-24 text-center">
+        <!--Heading-->
+        <h2 class="text-4xl font-semibold text-center text-[#0E0E14]">Sync. Build. Collaborate</h2>
+        <p class="text-xl py-2 mt-6 text-center text-[#3C3C45]">Design and build the perfect collaborative workplace <br> with Snap's cutting edge features</p>
+<!--Discover Container-->
+<div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+    <!--Discover 1-->
+    <div class="flex flex-col mt-6 items-center p-6 space-y-6 rounded-lg bg-[#CDCCCE] md:w-1/3">
+        <img src="images/discovery1.jpg" rounded-m alt="">
+        <h5 class="text-xl text-center font-semibold text-[#0E0E14] ">Sync your data streams</h5>
+        <p class="text-sm text-center font-medium text-[#3C3C45] pt-2">Import, sort and organize all your data</p>
+    </div>
+    <!--Discover 2-->
+    <div class="flex flex-col mt-6 items-center p-6 space-y-6  rounded-lg bg-[#CDCCCE] md:w-1/3">
+        <img src="images/discovery2.jpg" alt="">
+        <h5 class="text-xl text-center font-semibold text-[#0E0E14] ">Build your ideal workflow</h5>
+        <p class="text-sm text-center font-medium text-[#3C3C45] pt-2">Easily design and implement the perfect workflow for you</p>
+    </div>
+    <!--Discover 3-->
+    <div class="flex flex-col mt-6 items-center p-6 space-y-6 rounded-lg bg-[#CDCCCE] md:w-1/3">
+        <img src="images/discovery3.jpg"  alt="">
+        <h5 class="text-xl text-center font-semibold text-[#0E0E14] ">Collaborate more effectively</h5>
+        <p class="text-sm text-center font-medium text-[#3C3C45] pt-2">Share workflow, contacts, and communication in real time</p>
+    </div>
+</div>
+<div class="my-16">
+    <!--Button-->
+    <a href="#" class="py-3 px-6 pt-3 rounded-full md:ml-2 hover:bg-[#A277FF] text-white bg-[#8953FF]">Discover Now</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+    </div>
+
+</section>
+<!-- Contact Us-->
+<section id="Contact us" class="bg-[#8953FF]">
+    <!--flex container-->
+    <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"> 
+        <!--Heading-->
+        <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:text-left md:max-w-xl">Pull your all your data into one place </h2>
+        <div>
+            <!--Button-->
+            <a href="#" class="py-3 px-6 pt-3 rounded-full ml-2 md:ml-2 hover:bg-[#DFD8E8] bg-[#F3F1F6]">Discover Now</a>
+
+    </div>
+
+</section>
+<!--footer-->
+<footer class="bg-[#37353B]">
+    <!-- Flex Container -->
+<div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+    <div class="mx-auto my-6 text-center text-white md:hidden ">copyright &copy; 2023 All Rights Reserved
+
+    </div>
+    <!-- Logo -->
+    <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+        <div><img src="logo.svg" class="h-8" alt=""></div>
+    </div>
+    <!-- List container -->
+    <div class="flex justify-around space-x-32">
+        <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-[#8953FF]">Products</a>
+            <a href="#" class="hover:text-[#8953FF]">Solutions</a>
+            <a href="#" class="hover:text-[#8953FF]">Resources</a>
+            <a href="#" class="hover:text-[#8953FF]">Join Us</a>
+        </div>
+        <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-[#8953FF]">Careers</a>
+            <a href="#" class="hover:text-[#8953FF]">Community</a>
+            <a href="#" class="hover:text-[#8953FF]">Privacy policy</a>
+        </div>
+        <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-[#8953FF]">About us</a>
+            <a href="#" class="hover:text-[#8953FF]">Announcement</a>
+            <a href="#" class="hover:text-[#8953FF]">Partnership</a>
+            <a href="#" class="hover:text-[#8953FF]">Updated</a>
+        </div>
+    </div>
+
+<!--input continer-->
+<div class="flex flex-col justify-between">
+    <form>
+        <div class="flex space-x-3">
+            <input type="text" 
+            class="flex-1 px-4 rounded-full focus:outline-none" 
+            placeholder="Your Work email">
+           
+                <!--Button-->
+                <a href="#" class="py-2 px-6  rounded-full ml-2 md:ml-2 hover:bg-[#DFD8E8] bg-[#F3F1F6] focus: outline-none">Get Started</a>
+    
+        
+
+        </div>
+
+    </form>
+    <div class="hidden text-white md:block ">copyright &copy; 2023 All Rights Reserved
+
+    </div>
+
+</div>
+</div>
+</footer>
+<link rel="stylesheet" href="script.js">
+
+
+
+
+</body>
+</html>
